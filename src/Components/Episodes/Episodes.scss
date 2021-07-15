@@ -1,0 +1,39 @@
+@import "./src/styles";
+
+.episodes{
+  background: transparent;
+  width: 70%;
+  height: auto;
+  margin: 20px 0 0 10px;
+  ul{
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    li{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background: transparent;
+      border: 2px $base-color solid;
+      margin: 3px 0 0 0;
+      color: $base-color;
+      &:first-child{
+        height: 50px;
+        text-decoration: underline;
+      }
+      p{
+        font-family: fantasy;
+        font-size: large;
+        height: 50px;
+        width: 250px;
+        margin: auto;
+        border-left: 2px $base-color solid;
+        text-align: center;
+        &:first-child{
+          border-left: none;
+        }
+      }
+    }
+  }
+}

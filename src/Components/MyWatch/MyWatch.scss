@@ -1,0 +1,16 @@
+.characters{
+  button{
+    margin: 0;
+    color: red;
+    font-family: fantasy;
+    width: 90px;
+    height: 39px;
+    background-color: black;
+    border: 1px red solid;
+    border-radius: 20px;
+    font-size: 14px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import "./src/styles";
+
+.characters{
+  background: transparent;
+  width: 70%;
+  height: auto;
+  margin: 20px 0 0 10px;
+  ul{
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    li{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: transparent;
+      border: 2px $base-color solid;
+      border-radius: 30px;
+      margin: 3px 0 0 0;
+      color: $base-color;
+      &:hover {
+        cursor: pointer;
+      }
+      p{
+        font-family: fantasy;
+        font-size: large;
+        height: auto;
+        width: 250px;
+        margin: auto;
+      }
+      img{
+        border-radius: 50%;
+        width: 52px;
+        height: 52px;
+      }
+    }
+  }
+}
+.error{
+  position: absolute;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  p{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: large;
+    border: black;
+    border-radius: 20px;
+    font-family: fantasy;
+    background: fuchsia;
+    width: 200px;
+    height: max-content;
+    text-align: center;
+  }
+}
+
